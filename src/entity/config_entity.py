@@ -52,7 +52,7 @@ class ModelTrainerConfig:
     _criterion = MIN_SAMPLES_SPLIT_CRITERION
     _random_state = MIN_SAMPLES_SPLIT_RANDOM_STATE
 
-'''@dataclass
+@dataclass
 class ModelEvaluationConfig:
     changed_threshold_score: float = MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE
     bucket_name: str = MODEL_BUCKET_NAME
@@ -66,4 +66,4 @@ class ModelPusherConfig:
 @dataclass
 class VehiclePredictorConfig:
     model_file_path: str = MODEL_FILE_NAME
-    model_bucket_name: str = MODEL_BUCKET_NAME'''
+    model_bucket_name: str = MODEL_BUCKET_NAME
